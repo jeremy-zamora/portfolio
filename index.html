@@ -39,6 +39,12 @@
 </head>
 
 <body>
+		<!--Cursor Part-->
+		<div class="cursor">
+			<div class="cursor__inner cursor__inner--circle"></div>
+			<div class="cursor__inner cursor__inner--dot"></div>
+		</div>
+
 	<div id="progress-bar"></div>
 	<header class="hero">
 
@@ -51,7 +57,7 @@
 				<div id="header" class="row d-flex justify-content-between col-12">
 					<div class="col-6">
 						<a class="logo navbar-brand" href="./index.html">
-							<img src="./images/logojz.png" alt="" />
+							<img src="./images/logojz.png" alt="" data-hover/>
 							<span class="name">Jeremy Zamora</span>
 						</a>
 					</div>
@@ -59,26 +65,26 @@
 					<div class="col-6 d-flex align-items-center justify-content-end">
 						<ul class="nav-menu mb-0">
 
-							<li class="navitem"><a class="navtext navlink" href="./index.html"
+							<li class="navitem"><a class="navtext navlink" href="./index.html" data-hover
 									data-after="Home">Home</a></li>
 
 							<li class="navitem">
-								<a class="navtext navlink dropdowntoggle" href="index.html#ancre1" data-after="Réalisations">
+								<a class="navtext navlink dropdowntoggle" href="index.html#ancre1" data-hover data-after="Réalisations">
 									Réalisations <i class="uil uil-angle-down arrowtop"></i></a>
 								
 								<ul class="dropdownmenu">
-									<li><a class="dropdownitem" href="index.html#ancre2">Design Graphique</a></li>
-									<li><a class="dropdownitem" href="index.html#ancre3">Audiovisuel</a></li>
-									<li><a class="dropdownitem" href="index.html#ancre4">Developpement Web</a></li>
+									<li><a class="dropdownitem" href="index.html#ancre2" data-hover>Design graphique</a></li>
+									<li><a class="dropdownitem" href="index.html#ancre3" data-hover>Audiovisuel</a></li>
+									<li><a class="dropdownitem" href="index.html#ancre4" data-hover>Developpement Web</a></li>
 								</ul>
 							</li>
-							<li class="navitem"><a class=" navtext navlink" href="index.html#ancre5"
+							<li class="navitem"><a class=" navtext navlink" href="index.html#ancre5" data-hover
 									data-after="À propos">À propos</a></li>
-							<li class="navitem"><a class=" navtext navlink" href="index.html#ancre6"
+							<li class="navitem"><a class=" navtext navlink" href="index.html#ancre6" data-hover
 									data-after="Contacts">Contacts</a></li>
 						</ul>
 
-						<div class="hamburger">
+						<div class="hamburger" data-hover>
 							<span class="bar"></span>
 							<span class="bar"></span>
 							<span class="bar"></span>
@@ -110,7 +116,7 @@
 
 
 		<a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""
-			href="#section2"></a>
+			href="#section2" data-hover></a>
 
 
 		</nav>
@@ -126,18 +132,18 @@
 				<div class="content1 ">
 					<!--reveal-->
 
-					<h2> <a class="main_title underline" id="ancre2">Design Graphique</a></h2>
+					<h2> <a class="main_title underline" id="ancre2">Design Graphique
+					</a></h2>
 
 
-					<p class="text">Durant mes études supérieures, j'ai pu réaliser de nombreux travaux de différentes
-						matières. Ici j'ai selectionné mes réalisations en design graphique pour representer mon travail. Il y a encore plusieurs travaux en cours, comme des réalisations répondant à un brief client, une refonte de site web à l'aide d'Adobe XD et encore d'autres choses durant mon parcours S4 en design graphique et mon futur stage.</p>
+					<p class="text sub__title">Durant mes études supérieures, j'ai pu réaliser de nombreux travaux, qu'ils soient professionels ou personnels. Ici j'ai selectionné mes réalisations en design graphique pour representer mon travail. Il y aura encore des travaux en cours, comme ceux que je peux réaliser à mon école actuellement, à MyDigitalSchool, ou bien alors au sein de ma future alternance.</p>
 
 					<div class="box_line1 row">
 						<div class="col-lg-4 col-md-6 col-12 p-3">
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info1.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info1.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info1.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -158,7 +164,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info2.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info2.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info2.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -176,7 +182,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info3.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info3.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info3.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -194,7 +200,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info4.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info4.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info4.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -212,11 +218,11 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info5.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info5.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info5.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color:black;">Detox Green Tea<br><span>Packaging</span></h3>
+										<h3 style="color:#060239;">Detox Green Tea<br><span>Packaging</span></h3>
 										<ul class="app row">
 											<div class="col-6">
 												<li style="--i:1;"><img src="./images/dessin.png"></li>
@@ -233,7 +239,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info6.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info6.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info6.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -251,7 +257,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info7.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info7.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info7.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -269,7 +275,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info8.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info8.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info8.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -290,7 +296,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info9.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info9.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info9.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -308,7 +314,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info10.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info10.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info10.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -326,7 +332,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info11.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info11.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info11.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -344,11 +350,11 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info12.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info12.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info12.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color: black;">Tour du monde en voilier<br><span>Magazine</span></h3>
+										<h3 style="color: #060239;">Tour du monde en voilier<br><span>Magazine</span></h3>
 										<ul class="app row">
 											<div class="col-12">
 												<li style="--i:1;"><img src="./images/indesign.png"></li>
@@ -362,7 +368,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info13.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info13.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info13.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -380,11 +386,11 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info14.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info14.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info14.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color: black;">Service de livraison<br><span>Infographie</span></h3>
+										<h3 style="color: #060239;">Service de livraison<br><span>Infographie</span></h3>
 										<ul class="app row">
 											<div class="col-12">
 												<li style="--i:1;"><img src="./images/illustrator.png"></li>
@@ -398,7 +404,7 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info15.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info15.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info15.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
@@ -416,11 +422,11 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info16.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info16.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info16.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color: black;">Le tour du monde en 80 jours<br><span>Couverture de livre</span></h3>
+										<h3 style="color: #060239;">Le tour du monde en 80 jours<br><span>Couverture de livre</span></h3>
 										<ul class="app row">
 											<div class="col-12">
 												<li style="--i:1;"><img src="./images/illustrator.png"></li>
@@ -434,11 +440,11 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info17.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info17.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info17.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3>Le Clandestin<br><span>Maquette de site</span></h3>
+										<h3>Le clandestin<br><span>Maquette de site</span></h3>
 										<ul class="app row">
 											<div class="col-12">
 												<li style="--i:1;"><img src="./images/xd.png"></li>
@@ -448,15 +454,41 @@
 								</div>
 							</div>
 						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 						<div class="col-lg-4 col-md-6 col-12 p-3">
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info18.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info18.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info18.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3>Stratocaster Fender<br><span>Newsletter</span></h3>
+										<h3>STRATOCASTER FENDER<br><span>Newsletter</span></h3>
 										<ul class="app row">
 											<div class="col-12">
 												<li style="--i:1;"><img src="./images/illustrator.png"></li>
@@ -470,35 +502,71 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/info19.png" data-lightbox="example-1"><img class="image_box"
+									<a href="./images/info19.png" data-lightbox="example-1" data-hover><img class="image_box"
 											src="./images/info19.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color: black;">Yummy Bugs<br><span>Identité visuelle</span></h3>
+										<h3>Yummy Bugs<br><span>Logotype 1</span></h3>
 										<ul class="app row">
-											<div class="col-6">
+											<div class="col-12">
 												<li style="--i:1;"><img src="./images/illustrator.png"></li>
 											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png">
+									<a href="./images/info20.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info20.png" alt="image-1" /></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3 style="color: #060239;">Yummy Bugs<br><span>Logotype 2</span></h3>
+										<ul class="app row">
+											<div class="col-12">
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png">
+									<a href="./images/info21.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info21.png" alt="image-1" /></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3>Yummy Bugs<br><span>Logotype final</span></h3>
+										<ul class="app row">
+											<div class="col-12">
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png">
+									<a href="./images/info22.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info22.png" alt="image-1" /></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3>Yummy Bugs<br><span>Affiche publicitaire</span></h3>
+										<ul class="app row">
 											<div class="col-6">
-												<li style="--i:2;"><img src="./images/photoshop.png"></li>
+												<li style="--i:1;"><img src="./images/photoshop.png"></li>
 											</div>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>												      
-						<div class="col-lg-4 col-md-6 col-12 p-3">
-							<div class="box">
-								<div class="content">
-									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/Camera.gif" data-lightbox="example-1"><img class="image_box"
-											src="./images/Camera.gif" alt="image-1" /></a>
-									<img class="arrowup" src="./images/arrowhead-up.png">
-									<div class="contentBox">
-										<h3 style="color: black;">Appareil photo<br><span>Motion Design</span></h3>
-										<ul class="app row">
-											<div class="col-12">
-												<li style="--i:1;"><img src="./images/aftereffect.png"></li>
+											<div class="col-6">
+												<li style="--i:2;"><img src="./images/illustrator.png"></li>
 											</div>
 										</ul>
 									</div>
@@ -509,14 +577,17 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/glitch.gif" data-lightbox="example-1"><img class="image_box"
-											src="./images/glitch.gif" alt="image-1" /></a>
+									<a href="./images/info23.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info23.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3>Glitch<br><span>Motion Design</span></h3>
+										<h3>Yummy Bugs<br><span>Packaging</span></h3>
 										<ul class="app row">
-											<div class="col-12">
-												<li style="--i:1;"><img src="./images/aftereffect.png"></li>
+											<div class="col-6">
+												<li style="--i:1;"><img src="./images/photoshop.png"></li>
+											</div>
+											<div class="col-6">
+												<li style="--i:2;"><img src="./images/illustrator.png"></li>
 											</div>
 										</ul>
 									</div>
@@ -527,14 +598,14 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/galaxie.gif" data-lightbox="example-1"><img class="image_box"
-											src="./images/galaxie.gif" alt="image-1" /></a>
+									<a href="./images/info24.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info24.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3>Galaxie<br><span>Motion Design</span></h3>
+										<h3 style="color: #060239;">Yummy Bugs<br><span>Carte de visite - fidélité</span></h3>
 										<ul class="app row">
 											<div class="col-12">
-												<li style="--i:1;"><img src="./images/aftereffect.png"></li>
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
 											</div>
 										</ul>
 									</div>
@@ -545,21 +616,74 @@
 							<div class="box">
 								<div class="content">
 									<img class="loupe" src="./images/zoom-in.png">
-									<a href="./images/Shop.gif" data-lightbox="example-1"><img class="image_box"
-											src="./images/Shop.gif" alt="image-1" /></a>
+									<a href="./images/info25.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info25.png" alt="image-1" /></a>
 									<img class="arrowup" src="./images/arrowhead-up.png">
 									<div class="contentBox">
-										<h3 style="color: black;">Boutique<br><span>Motion Design</span></h3>
+										<h3 style="color: black;">Hands Uses<br><span>Logo</span></h3>
 										<ul class="app row">
 											<div class="col-12">
-												<li style="--i:1;"><img src="./images/aftereffect.png"></li>
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
 											</div>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
-						
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png">
+									<a href="./images/info26.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info26.png" alt="image-1" /></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3>Dacia<br><span>Logo rebranding</span></h3>
+										<ul class="app row">
+											<div class="col-12">
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png">
+									<a href="./images/info27.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info27.png" alt="image-1" /></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3>Ferrari<br><span>Logo rebranding</span></h3>
+										<ul class="app row">
+											<div class="col-12">
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-12 p-3">
+							<div class="box">
+								<div class="content">
+									<img class="loupe" src="./images/zoom-in.png ">
+									<a href="./images/info28.png" data-lightbox="example-1" data-hover><img class="image_box"
+											src="./images/info28.png" alt="image-1"/></a>
+									<img class="arrowup" src="./images/arrowhead-up.png">
+									<div class="contentBox">
+										<h3>Be Work<br><span>Logo</span></h3>
+										<ul class="app row">
+											<div class="col-12">
+												<li style="--i:1;"><img src="./images/illustrator.png"></li>
+											</div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 						
 					</div>
 
@@ -570,12 +694,12 @@
 					<h2> <a class="main_title underline" id="ancre3">Audiovisuel</a></h2>
 
 
-					<p class="text">En groupe, nous avons réalisé un spot publicitaire. Sur une marque inventée
+					<p class="text sub__title">En groupe, nous avons réalisé un spot publicitaire. Sur une marque inventé
 						qui se nomme "Pep's Tonic", une boisson énergisante, nous avons alors organisé entièrement un tournage, ainsi que le
-						montage final pour le rendu ci-dessous. Elle a été élue meilleure pub de la promo par le vote des étudiants.</p>
+						montage finale pour le rendu ci-dessous. Elle a été élue meilleure pub de la promo par le vote des étudiants.</p>
 
 					<div class="audiovisuel__video">
-						<video controls style="border-radius: 10px;">
+						<video controls style="border-radius: 10px;" data-hover>
 
 							<source src="./images/spotpub.mp4" type="video/mp4">
 
@@ -590,22 +714,22 @@
 				<h2> <a class="main_title underline" id="ancre4">Développement Web</a></h2>
 
 
-				<p class="text">En développement / intégration web, j'ai pu apprendre à réaliser des sites web. Tout
-					d'abord, en utilisant le langage HTML et CSS, ensuite en y ajoutant le JAVASCRIPT et le PHP. Et enfin, en
-					utilisant Wordpress. </p>
+				<p class="text sub__title">En développement / intégration web, j'ai pu apprendre à réaliser des sites web. Tout
+					d'abord, en utilisant le langage HTML et CSS, ensuite en y ajoutant le JAVASCRIPT. Et enfin, en
+					utilisant Wordpress.</p>
 				<div class="container2">
 					<input type="radio" name="slider" id="item-1" checked>
 					<input type="radio" name="slider" id="item-2">
 					<input type="radio" name="slider" id="item-3">
 					<div class="cards">
 						<label class="card" for="item-1" id="song-1">
-							<img src="./images/heavenspace.png" >
+							<img src="./images/heavenspace.png" data-hover>
 						</label>
 						<label class="card" for="item-2" id="song-2">
-							<img src="./images/spacenowledge.png" alt="song">
+							<img src="./images/spacenowledge.png" data-hover>
 						</label>
 						<label class="card" for="item-3" id="song-3">
-							<img src="./images/voyage.png" alt="song">
+							<img src="./images/voyage.png" data-hover>
 						</label>
 					</div>
 
@@ -644,21 +768,20 @@
 				<div class="box_line2 row">
 					<div class=" col-lg-6 col-md-12 col-12">
 						<div class="cv">
-							<a href="./images/CV.png" data-lightbox="example-2"><img class="image_box"
+							<a href="./images/CV.png" data-lightbox="example-2" data-hover><img class="image_box"
 									src="./images/CV.png" alt="image-2" /></a><img>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12 col-12">
-						<p class="text">Je suis actuellement en DUT MMI, Métiers du Multimédia et de l’Internet à l’IUT de Grenoble.
-							Notre formation tourne autour de 4 domaines, l’audiovisuel, l’infographie, l’informatique et
-							la
-							communication. Nous apprenons à nous servir de plusieurs outils, comme la suite Adobe, des
-							langages informatiques comme l’HTML, le CSS ou le JS, du matériel audiovisuel et à avoir une
+						<p class="text">Je suis actuellement en bachelor Création Numérique, à MyDigitalSchool Montpellier.
+							J'ai obtenu l'année précédente mon DUT Métiers du Multimédia et de l’Internet à l’IUT de Grenoble.
+							La formation tournait autour de 4 pôles, l’audiovisuel, le design graphique, le développement wev et
+							la communication. J'ai appris à me servir de plusieurs outils, comme ceux de la suite Adobe, des
+							langages informatiques comme l’HTML, le CSS ou le JS, à me servir du matériel audiovisuel et à avoir une
 							meilleure
-							communication verbale et non verbale. Je suis ainsi à la recherche d’un stage de 2 mois afin
-							de
-							valider mon DUT, dans le domaine du graphisme. En effet, j’aimerai en apprendre davantage et
-							continuer mes études dans ce domaine. Et aussi pour me préparer à une futur alternance.</p>
+							communication verbale et non verbale. Je suis ainsi à la recherche d’une alternance afin de poursuivre mon année scolaire et surtout de pouvoir acquérir plus d'experience dans le domaine du graphisme. 
+							En effet, j’aimerai en apprendre davantage et
+							continuer mes études dans ce domaine, ce que j'aime c'est créer par le biais du numérique.</p>
 					</div>
 				</div>
 
@@ -667,7 +790,7 @@
 				<div class="content5">
 					<h2> <a class="main_title underline" id="ancre6">Contact</a></h2>
 					<div class="contact__content">
-						<h3 class="contact__title">Les différents moyens de me contacter</h3>
+						<h3 class="contact__title">Les différents moyens de me contacter :</h3>
 
 						<div class="contact__info row">
 							<div class="col-lg-4 col-md-4 col-12 p-3">
@@ -676,7 +799,7 @@
 									<h3 class="contact__card-title">Email</h3>
 									<span class="contact__card-data">jeremy.zamora1@yahoo.com</span>
 
-									<a href="mailto:jeremy.zamora1@yahoo.com" target="_blank" class="contact__button">
+									<a href="mailto:jeremy.zamora1@yahoo.com" data-hover target="_blank" class="contact__button">
 										Écrivez-moi<i class="uil uil-arrow-right contact__button-icon"></i>
 									</a>
 								</div>
@@ -688,7 +811,7 @@
 									<h3 class="contact__card-title">Whatsapp</h3>
 									<span class="contact__card-data">06 51 48 83 24</span>
 
-									<a href="https://api.whatsapp.com/send?phone=%2B33651488324&text&app_absent=0" target="_blank" class="contact__button">
+									<a href="https://api.whatsapp.com/send?phone=%2B33651488324&text&app_absent=0 " data-hover target="_blank" class="contact__button">
 										Écrivez-moi<i class="uil uil-arrow-right contact__button-icon"></i>
 									</a>
 								</div>
@@ -700,7 +823,7 @@
 									<h3 class="contact__card-title">LinkedIn</h3>
 									<span class="contact__card-data">jeremyzamora1</span>
 
-									<a href="https://www.linkedin.com/in/jeremyzamora1/" target="_blank" class="contact__button">
+									<a href="https://www.linkedin.com/in/jeremyzamora1/" data-hover target="_blank" class="contact__button">
 										Écrivez-moi<i class="uil uil-arrow-right contact__button-icon"></i>
 									</a>
 								</div>
@@ -719,16 +842,18 @@
 		<img src="./images/logojz.png" alt="" />
 		<div>
 			<ul class="socialmedia">
-				<li> <a href="#"><i class="uil uil-facebook-f socialmedia_icon facebook"></i></a></li>
-				<li> <a href="#"><i class="uil uil-instagram socialmedia_icon instagram"></i></a></li>
-				<li> <a href="https://www.linkedin.com/in/jeremyzamora1/"><i class="uil uil-linkedin socialmedia_icon linkedin"></i></a></li>
+				<li> <a href="#"><i class="uil uil-facebook-f socialmedia_icon facebook" data-hover></i></a></li>
+				<li> <a href="#"><i class="uil uil-instagram socialmedia_icon instagram" data-hover></i></a></li>
+				<li> <a href="https://www.linkedin.com/in/jeremyzamora1/"><i class="uil uil-linkedin socialmedia_icon linkedin" data-hover></i></a></li>
 
 			</ul>
 		</div>
 		<p>Copyright &copy; Portfolio Jeremy Zamora. All rights reserved.</p>
 	</footer>
 
-	<a href="#" class="scrollup" id="scroll-up">
+
+
+	<a href="#" class="scrollup" id="scroll-up" data-hover>
 		<i class="uil uil-arrow-up scrollup_icon"></i>
 	</a>
 
@@ -738,9 +863,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./javascript/h22.js"></script>
 	<script src="./javascript/bar.js"></script>
+	<script src="./javascript/cursor.js"></script>
 	<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 
 	<script src="./javascript/lightbox.js"></script>
+
+	
 </body>
 
 </html>
