@@ -1016,15 +1016,25 @@ input[type=radio] {
     margin: 0;
     padding: 0;
 }
+
+.content3 video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
 .content3 iframe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-	height: 280px;
-    margin: 0 auto;
-    border-radius: 10px;
-    margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 35px;
 }
 
 .audiovisuel__video{
@@ -1539,6 +1549,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   }
 
   .content3 video{
+    width:250px;
+  }
+
+  .content3 iframe{
     width:250px;
   }
 
