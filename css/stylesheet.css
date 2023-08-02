@@ -1556,6 +1556,12 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     width:250px;
   }
 
+  .titttle{
+    font-size: 12px;
+    padding: 0 auto;
+    margin-left: 40px;
+  }
+
   .content2 .container2 .cards{
     width: 60%;
     height: 50%;
